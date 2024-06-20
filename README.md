@@ -102,6 +102,6 @@ $router->get('/dashboard', 'HomeController@index');
 ```
 
 ## 预览
-![img](/public/storage/images/dashboard.png)
-![img](/public/storage/images/operation-logs.png)
-![img](/public/storage/images/extension.png)
+![img](/storage/app/public/images/dashboard.png)
+![img](/storage/app/public/images/operation-logs.png)
+![img](/storage/app/public/images/extension.png)
