@@ -100,3 +100,8 @@ return [
 ```php
 $router->get('/dashboard', 'HomeController@index');
 ```
+
+## 预览
+![img](/public/storage/images/dashboard.png)
+![img](/public/storage/images/operation-logs.png)
+![img](/public/storage/images/extension.png)
