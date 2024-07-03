@@ -41,7 +41,7 @@ sql文件位于: /public/dcat-admin.sql
 
 ### 安装
 运行以下命令：
-```
+```bash
 composer require mosiboom/dcat-iframe-tab
 ```
 然后运行：
