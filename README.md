@@ -45,7 +45,7 @@ sql文件位于: /public/dcat-admin.sql
 composer require mosiboom/dcat-iframe-tab
 ```
 然后运行：
-```
+```bash
 # 发布扩展必备文件
 php artisan vendor:publish --tag=iframe-tab
 # 发布扩展配置文件
@@ -57,13 +57,13 @@ php artisan vendor:publish --tag=iframe-tab 会将css和js发布public/vendor/if
 
 ### 更新
 基本迭代更新命令：
-```
+```bash
 composer remove mosiboom/dcat-iframe-tab
-composer require mosiboom/dcat-iframe-tab:版本号
+# composer require mosiboom/dcat-iframe-tab:版本号
 php artisan vendor:publish --tag=iframe-tab --force
 ```
 其他文件覆盖更新：
-```
+```bash
 php artisan vendor:publish --tag=iframe-tab --force
 php artisan vendor:publish --tag=iframe-tab.config --force
 ```
